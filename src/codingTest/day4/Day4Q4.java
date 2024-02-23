@@ -1,4 +1,4 @@
-package codingTest;
+package codingTest.day4;
 
 public class Day4Q4 {
     public int solution(String ineq, String eq, int n, int m) {

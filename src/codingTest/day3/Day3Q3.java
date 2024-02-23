@@ -1,4 +1,4 @@
-package codingTest;
+package codingTest.day3;
 
 public class Day3Q3 {
     public String solution(String my_string, int k) {

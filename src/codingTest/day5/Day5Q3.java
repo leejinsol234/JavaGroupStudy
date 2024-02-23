@@ -1,4 +1,4 @@
-package codingTest;
+package codingTest.day5;
 
 public class Day5Q3 {
     public int solution(int a, int b, int c) {

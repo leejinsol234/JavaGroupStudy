@@ -1,4 +1,4 @@
-package codingTest;
+package codingTest.day5;
 
 public class Day5Q5 {
     public int solution(int[] num_list) {

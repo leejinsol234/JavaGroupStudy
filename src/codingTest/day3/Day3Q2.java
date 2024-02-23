@@ -1,4 +1,4 @@
-package codingTest;
+package codingTest.day3;
 
 public class Day3Q2 {
     public String solution(String[] arr) {

@@ -12,7 +12,7 @@ public class Day7Q4 {
         for(int i = l; i<=r; i++){
             String str= i + "";
             for(int j=0; j<str.length(); j++){
-                if(str.charAt(j) == 48 || str.charAt(j) == 53){
+                if(str.charAt(j) == 48 || str.charAt(j) == 53){ //ASCII 코드에서 숫자 '0'은 48에 해당하고, '5'는 53에 해당한다.
                     count++;
                 }
             }

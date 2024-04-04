@@ -28,7 +28,7 @@ public class UdpServer {
             // 서버의 현재 시간을 시분초 형태([hh:mm:ss])로 반환한다.
             SimpleDateFormat sdf = new SimpleDateFormat("[hh:mm:ss]");
             String time = sdf.format(new Date());
-            outMsg = time.getBytes(); // time�� byte�迭�� ��ȯ�Ѵ�.
+            outMsg = time.getBytes(); // time을 byte배열로 변환한다.
 
             // 패킷을 생성해서 client에게 전송(send)한다.
             outPacket = new DatagramPacket(outMsg, outMsg.length, address, port);

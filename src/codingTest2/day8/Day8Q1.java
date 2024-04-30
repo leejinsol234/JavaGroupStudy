@@ -1,9 +1,11 @@
 package codingTest2.day8;
 
-public class Day8Q1 {
-    public int solution(int hp) {
-        int answer = (hp/5) + ((hp%5)/3) + ((hp%5)%3);
+import java.util.Arrays;
 
+public class Day8Q1 {
+    public int[] solution(int[] numbers, int num1, int num2) {
+        int[] answer = {};
+        answer = Arrays.copyOfRange(numbers, num1, num2+1);
         return answer;
     }
 }
